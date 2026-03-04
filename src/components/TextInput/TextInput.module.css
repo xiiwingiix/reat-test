@@ -1,0 +1,62 @@
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 36px 8px 12px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+.input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.error {
+    border-color : #ef4444;
+}
+
+.error:focus {
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+
+.sm {
+  height: 32px;
+  font-size: 12px;
+}
+
+.md {
+  height: 40px;
+  font-size: 14px;
+}
+
+.lg {
+  height: 48px;
+  font-size: 16px;
+}
+
+.clearButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.clearButton:hover {
+  color: #111827;
+}

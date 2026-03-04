@@ -36,15 +36,14 @@ export default {
 }
 
 export const Playground = (args) => (
-    <div             style = {{
-                display : "flex", 
-                alignItems : "center", 
-                flexWrap : "wrap", 
-                gap: 12
-            }}>
-        <div 
-
-        >
+    <div             
+        style = {{
+            display : "flex", 
+            alignItems : "center", 
+            flexWrap : "wrap", 
+            gap: 12
+        }}>
+        <div>
             <Icon {...args} />
             <span 
                 style = {{
@@ -61,8 +60,6 @@ export const Playground = (args) => (
 
 export const AllIcons = (args) => {
     const names = ["check", "close"];
-
-
 
     return (
         <div 
