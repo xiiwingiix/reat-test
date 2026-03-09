@@ -11,6 +11,7 @@ Figma MCP 디자인과 spec 문서를 기반으로
 3. spec 문서를 동작 기준으로 사용합니다
 4. .codex/AGENTS.md 규칙을 따릅니다
 5. 기존 컴포넌트가 있다면 재사용합니다
+6. css는 src/assets/css/figma-variables.css의 root값을 기본으로 사용합니다
 
 기술 규칙
 
